@@ -13,4 +13,8 @@ public abstract class Entity implements Killable {
 	
 	public abstract int getPoints();
 	
+	public Faction getFaction() {
+		return faction;
+	}
+	
 }
