@@ -1,0 +1,24 @@
+Do this first:
+
+Under 'Source Packages', right click on the package name 'uk.ac.tees.username'
+
+Select REFACTOR
+
+Select RENAME
+
+Delete 'username' and insert your actual username.
+
+Repeat for 'Test Packages', if required.
+
+
+
+You are ready to start!
+
+
+
+HINT: You can run all tests by right clicking on the project name and selecting TEST. This will
+get you a lot of error messages, because you have not written the classes yet.
+
+HINT: You can run a single file of tests by right clicking on that test file and selecting 'Test File'.
+
+If I were developing a solution, I would start by creating Cadet, Soldier and Killable, then testing them.
