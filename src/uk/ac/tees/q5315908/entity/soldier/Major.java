@@ -10,9 +10,7 @@ public class Major extends Soldier {
 
 	@Override
 	public String kill() {
-		System.out.println(Soldier.totalPoints + " + " + getPoints());
 		Soldier.totalPoints += getPoints();
-		System.out.println(Soldier.totalPoints);
 		return "A " + faction + " major explodes into pieces: +" + getPoints() + "pts.\n";
 	}
 

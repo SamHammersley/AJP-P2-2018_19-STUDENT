@@ -10,9 +10,7 @@ public class Colonel extends Soldier {
 
 	@Override
 	public String kill() {
-		System.out.println(Soldier.totalPoints + " + " + getPoints());
 		Soldier.totalPoints += getPoints();
-		System.out.println(Soldier.totalPoints);
 		return "A " + faction + " colonel retires, permanently: +" + getPoints() + "pts.\n";
 	}
 
